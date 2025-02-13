@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <br><br><br>
+    <h2>
+        Persino questa festa ha senso solo perchè ho te nella mia vita.
+    <h2>
+    <br><br><br>
+    <h2>
+        il nostro amore è speciale e merita di essere festeggiato. 
+    </h2>
+    <br><br><br>
+    <button onclick="toggleImage()">
+        Toccami!
+    </button>
+    <img src="regalo.png" alt="regalo" id="immagine" style="display: none; width: 100%;">
+
+    <script>
+        function toggleImage() {
+          var immagine = document.getElementById("immagine");
+          if (immagine.style.display === "none") {
+          immagine.style.display = "block";
+          } else {
+          immagine.style.display = "none";
+          }
+        }         
+    </script>
+</body>
+</html>
