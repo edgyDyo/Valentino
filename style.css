@@ -12,6 +12,18 @@ h1 {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+h2 {
+    animation: fadeIn 3s ease-in-out forwards; /* Animazione */
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+    animation: fadeIn 3s ease-in-out forwards; /* Animazione */
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 a {
     animation: fadeIn 5s ease-in-out forwards;
     display: flex;
@@ -29,6 +41,17 @@ img {
     animation: fadeIn 4s ease-in-out forwards;
 }
 
+button {
+    background-color: black;
+    color: aliceblue;
+    padding: 0 25px 0 25px;
+    margin: 10%;
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    animation: fadeIn 7s ease-in-out forwards
+}
+
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -38,4 +61,8 @@ img {
         opacity: 1;
         transform: translateY(0); /* Posizione originale */
     }
+}
+
+.ritardato {
+    animation: fadeIn 6s ease-in-out forwards;
 }
